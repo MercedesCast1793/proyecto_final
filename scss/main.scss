@@ -1,0 +1,28 @@
+@import "./utils/variables";
+
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./components/buttons";
+@import "./components/carousel";
+@import "./components/cover";
+@import "./components/dropdown";
+@import "./components/card";
+
+@import "./layout/footer";
+@import "./layout/forms";
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/navigation";
+@import "./layout/sidebar";
+
+@import "./pages/contact";
+@import "./pages/blog";
+@import "./pages/blogsimple";
+@import "./pages/acerca";
+@import "./pages/registro";
+
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+

@@ -1,0 +1,15 @@
+{
+  "name": "proyectofinal-castaneda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-sass": "sass --watch scss/main.scss css/styles.css"
+  },
+  "author": "Mercedes Castañeda Morales",
+  "license": "ISC"
+}

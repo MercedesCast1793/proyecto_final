@@ -1,0 +1,368 @@
+section.contact-us {
+    background-image: url(/assets/img/footer-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    position: relative;
+}
+
+section.contact-us:after {
+    position: absolute;
+    content: '';
+    background-image: url(/assets/img/footer-left-dec.png);
+    left: 0px;
+    top: 60px;
+    width: 267px;
+    height: 396px;
+    z-index: 1;
+}
+
+section.contact-us .contact-info {
+    background-color: #fff;
+    margin-top: -30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    z-index: 5;
+    position: relative;
+    padding: 20px;
+    .icon i {
+        margin-right: 15px;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        background: rgb(138, 210, 222);
+        background: linear-gradient(-145deg, #FEBA0B , #ffbf69);
+        color: #fff;
+        h4 {
+            font-size: 18px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+    }
+    span {
+        font-size: 15px;
+        color: $color-boton;
+        font-weight: 700;
+    }
+    
+}
+
+section.contact-us .section-heading {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+section.contact-us #contact {
+    margin-left: -100px;
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
+    margin-top: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 40px;
+    input {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #f4f7fb;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        font-size: 13px;
+        font-weight: 500;
+        color: #7a7a7a;
+        padding: 0px 15px;
+        margin-bottom: 30px;
+    }
+    textarea {
+        width: 100%;
+        min-height: 140px;
+        max-height: 180px;
+        border-radius: 5px;
+        background-color: #f4f7fb;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        font-size: 13px;
+        font-weight: 500;
+        color: #7a7a7a;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    button {
+        font-size: 13px;
+        color: #fff;
+        background: rgb(255, 205, 41);
+        background: linear-gradient(-145deg, #FEBA0B , #ffbf69);
+        padding: 12px 30px;
+        display: inline-block;
+        border-radius: 5px;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all .3s;
+        transition: all .3s;
+        border: none;
+        outline: none;
+    }
+    button:hover {
+        opacity: 0.9;
+    }
+}
+
+section.contact-us ul.social-icons li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+section.contact-us ul.social-icons {
+    text-align: center;
+    margin-top: 70px;
+}
+
+section.contact-us ul.social-icons li a {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    background-color: #fff;
+    color: $color-boton;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+section.contact-us ul.social-icons li a:hover {
+    background-color: $color-boton;
+    color: #fff;
+}
+
+p.copyright {
+    text-align: center;
+    color: #fff;
+    margin: 40px 0px;
+    a {
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+@media (max-width: 1330px) {
+    .services .owl-nav .owl-next {
+        right: -30px;
+    }
+
+    .services .owl-nav .owl-prev {
+        left: -25px;
+    }
+
+    .our-courses .owl-nav .owl-next {
+        right: -30px;
+    }
+
+    .our-courses .owl-nav .owl-prev {
+        left: -25px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-banner .right-image {
+        margin-left: 60px;
+    }
+
+    .main-banner .header-text h2 {
+        font-size: 62px;
+    }
+
+    .header-area {
+        background: rgb(138, 210, 222);
+        background: linear-gradient(-145deg, #FEBA0B , #ffbf69);
+    }
+
+    .services .owl-nav .owl-next {
+        right: -70px;
+    }
+
+    .services .owl-nav .owl-prev {
+        left: -65px;
+    }
+
+    .our-courses .owl-nav .owl-next {
+        right: -70px;
+    }
+
+    .our-courses .owl-nav .owl-prev {
+        left: -65px;
+    }
+}
+
+@media (max-width: 1085px) {
+    .services .owl-nav .owl-next {
+        right: -30px;
+    }
+
+    .services .owl-nav .owl-prev {
+        left: -25px;
+    }
+
+    .our-courses .owl-nav .owl-next {
+        right: -30px;
+    }
+
+    .our-courses .owl-nav .owl-prev {
+        left: -25px;
+    }
+}
+
+@media (max-width: 1005px) {
+    .services .owl-nav .owl-next {
+        display: none;
+    }
+
+    .services .owl-nav .owl-prev {
+        display: none;
+    }
+
+    .our-courses .owl-nav .owl-next {
+        display: none;
+    }
+
+    .our-courses .owl-nav .owl-prev {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .main-banner .header-text {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .main-banner .right-image {
+        margin-left: 0px;
+    }
+
+    section.our-courses ul.nacc {
+        margin-left: 0px;
+    }
+
+    section.simple-cta {
+        margin-top: 0px;
+    }
+
+    section.simple-cta .left-image {
+        margin-right: 0px;
+        margin-bottom: 45px;
+    }
+
+    section.contact-us .contact-info {
+        margin-top: 15px;
+    }
+
+    section.contact-us #contact {
+        margin-left: 0px;
+    }
+
+    section.contact-us #contact button {
+        float: none;
+    }
+
+    section.get-info .left-image {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    section.get-info .info-item {
+        margin-top: 60px;
+    }
+
+    section.our-office #video {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    section.featured-product .left-info .info-item,
+    section.featured-product .right-info .info-item {
+        text-align: center;
+        background-color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+
+    section.featured-product .left-info .info-item .icon {
+        right: 50%;
+        transform: translateX(40px);
+    }
+
+    section.featured-product .right-info .info-item .icon {
+        left: 50%;
+        transform: translateX(-40px);
+    }
+
+    section.featured-product .product-image {
+        margin: 60px
+    }
+
+    section.our-team ul.nacc li .left-content span a,
+    section.our-courses ul.nacc li .right-content span {
+        margin-right: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-area .main-nav .nav li.has-sub ul.sub-menu {
+        display: none;
+    }
+
+    section.our-courses ul.nacc li .left-image,
+    section.our-team ul.nacc li .right-image {
+        position: relative;
+        margin-right: 0px;
+        margin-left: 0px;
+        transform: translateY(-0%);
+    }
+
+    section.our-courses ul.nacc li .left-image img,
+    section.our-team ul.nacc li .right-image img {
+        border-radius: 15px;
+    }
+
+    section.our-courses ul.nacc li,
+    section.our-team ul.nacc li {
+        padding: 0px;
+    }
+
+    section.our-courses ul.nacc li .right-content {
+        margin-left: 0px;
+        padding: 30px;
+    }
+
+    section.our-team ul.nacc li .left-content {
+        margin-right: 0px;
+        padding: 30px;
+    }
+
+    section.our-team .naccs .menu div {
+        width: 14%;
+        margin: 0px 5px;
+    }
+
+    section.our-team .naccs .menu div.active img {
+        border: 3px solid $color-boton;
+    }
+
+    section.our-team .naccs .menu div h4,
+    section.our-team .naccs .menu div span {
+        display: none;
+    }
+
+    section.more-info .count-area-content .count-title {
+        font-size: 22px;
+    }
+}
